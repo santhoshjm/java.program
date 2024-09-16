@@ -1,0 +1,29 @@
+
+public class Main
+{
+
+public static void main (String[] args) {
+String s="malayalaM";
+String n="";
+char arr[]=s.toCharArray();
+
+char b[]=s.toCharArray();
+char temp;
+
+for(int i=0,j=arr.length-1;i<j;i++,j--){
+    
+    temp=arr[i];
+    arr[i]=arr[j];
+    arr[j]=temp;
+}
+
+for(int i=0;i<arr.length;i++){
+    
+    n=n+arr[i];
+}
+ 
+ if(n.owerCasetoL().equals(s.toLowerCase())){
+     System.out.print("Message");
+ }
+}
+}
