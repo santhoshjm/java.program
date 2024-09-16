@@ -22,8 +22,9 @@ for(int i=0;i<arr.length;i++){
     n=n+arr[i];
 }
  
- if(n.owerCasetoL().equals(s.toLowerCase())){
+ if(n.toLowerCase().equals(s.toLowerCase())){
      System.out.print("Message");
  }
 }
+
 }
